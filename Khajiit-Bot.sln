@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Khajiit-Bot", "Khajiit-Bot\Khajiit-Bot.csproj", "{4F757D47-7E39-4EBB-B292-04BA6F531AF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL_KhajiitBot", "BLL_KhajiitBot\BLL_KhajiitBot.csproj", "{07D13376-DF6A-40DB-B78E-12E132027A5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_KhajiitBot", "DAL_KhajiitBot\DAL_KhajiitBot.csproj", "{F82835A6-0A4D-4A6A-825E-AABE7721FD1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F757D47-7E39-4EBB-B292-04BA6F531AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F757D47-7E39-4EBB-B292-04BA6F531AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F757D47-7E39-4EBB-B292-04BA6F531AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F757D47-7E39-4EBB-B292-04BA6F531AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D13376-DF6A-40DB-B78E-12E132027A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D13376-DF6A-40DB-B78E-12E132027A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D13376-DF6A-40DB-B78E-12E132027A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D13376-DF6A-40DB-B78E-12E132027A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82835A6-0A4D-4A6A-825E-AABE7721FD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82835A6-0A4D-4A6A-825E-AABE7721FD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82835A6-0A4D-4A6A-825E-AABE7721FD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82835A6-0A4D-4A6A-825E-AABE7721FD1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
