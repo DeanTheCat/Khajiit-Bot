@@ -11,7 +11,7 @@ namespace BLL_KhajiitBot
         int basic = 1000;
         int nb = 250;
         int templar = 250;
-        int sorc = 500;
+        int sorc = 300;
         int dk = 400;
         int mag = 500;
         int stam = 0;
@@ -21,6 +21,9 @@ namespace BLL_KhajiitBot
         int gearPurple = 500;
         int gearGold = 650;
         int levelVariable = 50;
+        int luck;
+
+        static Random r = new Random();
 
         public int calculateRating(int charClass, int IsMag, int gear, int level)
         {
@@ -69,6 +72,20 @@ namespace BLL_KhajiitBot
             tempValue = level * levelVariable;
 
             rating = rating + tempValue;
+
+            if (charClass == 3 && IsMag == 1)
+            {
+                rating = rating + 250;
+            }
+
+            if (charClass == 4 && IsMag == 0)
+            {
+                rating = rating + 100;
+            }
+
+            luck = r.Next(25, 175);
+
+            rating = rating + luck;
 
             return rating;
         }
